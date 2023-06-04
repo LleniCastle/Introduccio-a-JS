@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div class="galeryImg">
+                <div>
+                    <img src="assets/img/blanco.jpg" alt="">
+                    <img src="assets/img/lavanda.jpg" alt="">
+                </div>
+                <div>
+                    <img src="assets/img/rosa.jpg" alt="">
+                    <img src="assets/img/gris.jpg" alt="">
+                </div>
+            </div>
+
+            <h1>Sweter Tejido Holgado </h1>
+            <p>Precio: $ 15.999</p>
+            <div class="input">
+                <input id="cantidad" type="number">
+                <p>Seleccione la cantidad</p>
+            </div>
+            <div class="select">
+                <select id="color" onchange="miFuncion ()">
+                    <option value="white">Blanco</option>
+                    <option value="mediumpurple">Lila</option>
+                    <option value="gray">Gris</option>
+                    <option value="violet">Rosa</option>
+                </select>
+                <div class="colores1"></div>
+                <p>Seleccione el color</p>
+            </div>
+            <div class="button">
+                <button type="button" onclick="myFunction()">Calcular Total</button>
+                <div class="total">
+                    <P>El total es: $</P>
+                    <p class="resultado"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="assets/js/script.js">
+
+    </script>
+
+
+
+</body>
+
+</html>
